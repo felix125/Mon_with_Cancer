@@ -44,7 +44,11 @@ layout: default
 
     <a href="#" class="top">Top</a>
 </div>
+<p />
+<div class="fb-like" data-href="{{ post.url }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 
-<div class="disqus">
-    <section>{% include comment-disqus.html %}</section>
-</div>
+<div class="fb-comments" data-href="{{ post.url }}" data-width="100%" data-numposts="5"></div>
+
+<!-- <div class="disqus">
+     <section>{% include comment-disqus.html %}</section>
+     </div> -->
